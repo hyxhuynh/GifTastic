@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('../images/food.png');
+}
+
+#foodGif {
+    margin: 25px;
+}
+
+/* Button style from https://tympanus.net/Development/CreativeButtons/ */
+/* General button style (reset) */
+.food-btn, .btn {
+	border: none;
+	font-family: inherit;
+	font-size: inherit;
+	color: inherit;
+	background: none;
+	cursor: pointer;
+	padding: 15px 50px;
+	display: inline-block;
+	margin: 15px 30px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 700;
+	outline: none;
+	position: relative;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.food-btn:after {
+	content: '';
+	position: absolute;
+	z-index: -1;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+/* Button 2 */
+.food-btn-2 {
+	background: #cb4e4e;
+	color: #fff;
+	box-shadow: 0 6px #ab3c3c;
+	-webkit-transition: none;
+	-moz-transition: none;
+	transition: none;
+}
+
+/* Button 2g */
+.food-btn-2g {
+	border-radius: 40px;
+}
+
+.food-btn-2g:hover {
+	box-shadow: 0 4px #ab3c3c;
+	top: 2px;
+}
+
+.food-btn-2g:active {
+	box-shadow: 0 0 #ab3c3c;
+	top: 6px;
+}
+
+/* Button 6 */
+.btn-6 {
+	color: #fff;
+	background: #226fbe;
+	-webkit-transition: none;
+	-moz-transition: none;
+	transition: none;
+}
+
+.btn-6:active {
+	top: 2px;
+}
+
+/* Button 6b */
+.btn-6b {
+	border: 4px solid #226fbe;
+	border-radius: 15px;
+}
+
+.btn-6b:hover {
+	background: transparent;
+	color: #226fbe;
+}
+
+/* Instruction */
+label, .instruction {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    color: teal;
+    margin: 20px;
+}
+
+#food-input {
+    font-size: 20px;
+}
+
+#instructionSpan {
+    font-size: 30px;
+    font-weight: bold;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>GifTastic</title>
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div id="foodButtons"></div>
+
+        <form id="food-form">
+            <div class="instruction"><span id = 'instructionSpan'>Instruction: </span>Click the existing buttons or add in your choice of food and click SUBMIT to create a button. There will be 10 gif images for each food choice.</div>
+            
+            <label for="food-input">Add a type of food</label>
+            <input type="text" id="food-input"><br>
+            <input id="addFood" type="submit" value="Submit" class = "btn btn-6 btn-6b">
+        </form>
+        
+        <div id="foodGif"></div>
+    </div>
+
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/javascript/app.js"></script>
+</body>
+
+</html>
